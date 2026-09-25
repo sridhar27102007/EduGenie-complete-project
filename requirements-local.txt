@@ -1,0 +1,6 @@
+# Optional: only needed when USE_LOCAL_EXPLANATION=true.
+# This is much heavier than the default cloud-only setup.
+-r requirements.txt
+transformers>=4.50,<6.0
+torch>=2.5,<3.0
+sentencepiece>=0.2,<1.0
